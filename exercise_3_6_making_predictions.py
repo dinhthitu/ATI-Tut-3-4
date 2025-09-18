@@ -30,8 +30,7 @@ In this exercise, your predictions will be probabilities, which is the most comm
 Load data and convert the data to NumPy array:
 """
 
-from google.colab import files
-files.upload()
+
 import numpy as np
 import pandas as pd
 
