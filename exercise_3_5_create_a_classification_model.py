@@ -40,8 +40,7 @@ After successfully compiling the model, you can fit your model using the `predic
 Load data and convert the data to NumPy array:
 """
 
-from google.colab import files
-files.upload()
+
 import numpy as np
 import pandas as pd
 
