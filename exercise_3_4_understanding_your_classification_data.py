@@ -29,9 +29,6 @@ What was the maximum age of passengers on the Titanic?
 ## Code
 """
 
-import pandas as pd
-# Load csv file into the dataframe: df
-df = pd.read_csv("titanic_all_numeric.csv")
 
 """Perfome exploratory analysis using `head()` and `describe()` methods"""
 
