@@ -40,17 +40,7 @@ After successfully compiling the model, you can fit your model using the `predic
 Load data and convert the data to NumPy array:
 """
 
-import numpy as np
-import pandas as pd
 
-# Load csv file into the dataframe: df
-df = pd.read_csv("titanic_all_numeric.csv")
-
-# Convert the boolean values of the 'age_was_missing' column to integer
-df.age_was_missing = df.age_was_missing.replace({True: 1, False: 0})
-
-# Create predictors NumPy array: predictors
-predictors = df.drop(['survived'], axis=1).values
 
 """Create the neural network, then compile and fit the model"""
 
