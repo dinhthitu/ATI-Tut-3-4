@@ -29,8 +29,6 @@ What was the maximum age of passengers on the Titanic?
 ## Code
 """
 
-from google.colab import files
-files.upload()
 import pandas as pd
 # Load csv file into the dataframe: df
 df = pd.read_csv("titanic_all_numeric.csv")
